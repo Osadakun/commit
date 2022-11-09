@@ -5,5 +5,4 @@ Rspec.describe User, type: :model do
       is_expected.to validate_presence_of(:email_address)
     }
   end
-
 end
